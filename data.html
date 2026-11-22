@@ -590,7 +590,7 @@ src="https://www.facebook.com/tr?id=1159742623058015&ev=PageView&noscript=1"
                 seconds = seconds < 10 ? "0" + seconds : seconds;
  
                 countdownTimer.textContent = minutes + ":" + seconds;
- 
+  
                 if (--timer < 0) {
                     clearInterval(countdownInterval);
                     document.querySelector('.countdown').innerHTML = '<i class="fas fa-exclamation-triangle"></i> Offer has expired';
